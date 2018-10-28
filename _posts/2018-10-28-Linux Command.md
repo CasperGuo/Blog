@@ -8,19 +8,32 @@ tags:
 ---
 # Linux Shell Command
 [https://ss64.com/bash/](https://ss64.com/bash/)
+
 sudo - super user do
+
 su - switch user (default to root)
+
 nano - Nano's ANOther editor
+
 ## 我的常用指令
 mkdir
+
 find . -name 'frps.ini' $ find . -name ' comfig.xml' 
+
 rm 
+
 打开端口命令 nc -lp 23 & (打开23端口，即telnet)
+
 shutdown -r now
+
 ps 显示瞬间进程状态 ps -aux
+
 uname 显示系统信息
+
 kill 杀死进程
+
 ifconfig 查看网络情况,可以查看ip
+
 chmod 
 
 ## 常用指令
