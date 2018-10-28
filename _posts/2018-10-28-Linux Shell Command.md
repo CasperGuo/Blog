@@ -7,7 +7,7 @@ tags:
  - Linux
  - Shell
 ---
-# Linux Shell Command
+> Links
 [https://ss64.com/bash/](https://ss64.com/bash/)
 
 sudo - super user do
