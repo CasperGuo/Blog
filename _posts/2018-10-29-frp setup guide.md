@@ -1,4 +1,12 @@
-**frps设置教程 -- Simon**
+---
+layout: post
+title: "frp Set up -- Simon"
+date:   2018-10-29 10:57:36
+categories: Linux, VPN
+tags: 
+ - Linux
+ - VPN
+---
 
 **准备工作**
 
