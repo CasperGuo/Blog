@@ -60,9 +60,11 @@ netstat -an | grep 23 (查看是否打开[23端口])
 
 服务器安装命令（脚本安装）：
 
-1. wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh
-2. chmod 700 ./install-frps.sh
-3. ./install-frps.sh install
+a. wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh
+
+b. chmod 700 ./install-frps.sh
+
+c. ./install-frps.sh install
 
 默认安装在：
 
@@ -70,7 +72,7 @@ netstat -an | grep 23 (查看是否打开[23端口])
 
 使用脚本安装后可以按需重新配置frps.ini文件
 
-http://ip:6443可以访问frps的web状态页面。//密码需要输入两三次，服务器密码和frps密码
+http://ip:6443 可以访问frps的web状态页面。//密码需要输入两三次，服务器密码和frps密码
 
 手动安装：
 
