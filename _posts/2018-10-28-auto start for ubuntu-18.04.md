@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ubuntu-18.04, autostart script setting"
-date:   2018-10-28 22:43:42 +0800 
+date:   2018-10-29 10:43:36
 categories: Linux
 tags: 
  - Linux
