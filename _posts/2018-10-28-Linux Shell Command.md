@@ -7,14 +7,10 @@ tags:
  - Linux
  - Shell
 ---
-> Links [https://ss64.com/bash/](https://ss64.com/bash/)
-
-sudo - super user do
-
-su - switch user (default to root)
-
-nano - Nano's ANOther editor
-
+> Links [https://ss64.com/bash/](https://ss64.com/bash/)  
+> sudo - super user do  
+> su - switch user (default to root)  
+> nano - Nano's ANOther editor  
 ## My Basic Shell Command
 + mkdir ---
 + find --- find . -name 'frps.ini' $ find . -name ' comfig.xml' 
