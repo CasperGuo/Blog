@@ -34,42 +34,42 @@ ls 显示文件或目录
 **mkdir** 创建目录
 + -p 创建目录，若无父目录，则创建p(parent)  
 
-cd 切换目录  
-touch 创建空文件  
-echo 创建带有内容的文件。  
-cat 查看文件内容   
-cp 拷贝  
-mv 移动或重命名  
-rm 删除文件  
+**cd** 切换目录  
+**touch** 创建空文件  
+**echo** 创建带有内容的文件。  
+**cat** 查看文件内容   
+**cp** 拷贝  
+**mv** 移动或重命名  
+**rm** 删除文件  
 + -r 递归删除，可删除子目录及文件
 + -f 强制删除  
-find 在文件系统中搜索某文件  
-> 使用实例：find . -name 'frps.ini' $ find . -name ' comfig.xml' 
-wc 统计文本中行数、字数、字符数  
-grep 在文本文件中查找某个字符串  
-rmdir 删除空目录  
-tree 树形结构显示目录，需要安装tree包  
-pwd 显示当前目录  
-ln 创建链接文件  
-more、less 分页显示文本文件内容  
-head、tail 显示文件头、尾内容  
-ctrl+alt+F1 命令行全屏模式  
-clear 清屏  
+**find** 在文件系统中搜索某文件  
+> 使用实例：find . -name 'frps.ini' $ find . -name ' comfig.xml'  
+**wc** 统计文本中行数、字数、字符数  
+**grep** 在文本文件中查找某个字符串  
+**rmdir** 删除空目录  
+**tree** 树形结构显示目录，需要安装tree包  
+**pwd** 显示当前目录  
+**ln** 创建链接文件  
+**more、less** 分页显示文本文件内容  
+**head、tail** 显示文件头、尾内容  
+**ctrl+alt+F1** 命令行全屏模式  
+**clear** 清屏  
 ## 查看当前启动的端口 netstat -luntp  
-打开端口命令 nc -lp 23 &(打开23端口，即telnet)  
-netstat -an | grep 23 (查看是否打开23端口)  
+**nc** 打开端口命令 nc -lp 23 &(打开23端口，即telnet)  
+**netstat** -an | grep 23 (查看是否打开23端口)  
 ## 关机/重启指令
-shutdown  
+**shutdown**  
  + -r 关机重启
  + -h 关机不重启
  + now 立刻关机
-halt 关机  
-reboot 重启  
-ifconfig 查看网络情况,可以查看ip  
-kill 杀死进程，可以先用ps 或 top命令查看进程的id，然后再用kill命令杀死进程。  
-ps 显示瞬间进程状态 ps -aux  
-uname 显示系统信息  
-netstat 显示网络状态信息  
+**halt** 关机  
+**reboot** 重启  
+**ifconfig** 查看网络情况,可以查看ip  
+**kill** 杀死进程，可以先用ps 或 top命令查看进程的id，然后再用kill命令杀死进程。  
+**ps** 显示瞬间进程状态 ps -aux  
+**uname** 显示系统信息  
+**netstat** 显示网络状态信息  
 
 ## 打包压缩相关命令
 gzip： 
