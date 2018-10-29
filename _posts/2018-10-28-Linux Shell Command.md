@@ -15,26 +15,17 @@ su - switch user (default to root)
 
 nano - Nano's ANOther editor
 
-## 我的常用指令
-mkdir
-
-find . -name 'frps.ini' $ find . -name ' comfig.xml' 
-
-rm 
-
-打开端口命令 nc -lp 23 & (打开23端口，即telnet)
-
-shutdown -r now
-
-ps 显示瞬间进程状态 ps -aux
-
-uname 显示系统信息
-
-kill 杀死进程
-
-ifconfig 查看网络情况,可以查看ip
-
-chmod 
+## My Basic Shell Command
++ mkdir ---
++ find --- find . -name 'frps.ini' $ find . -name ' comfig.xml' 
++ rm --- 
++ nc --- Open port(打开端口命令) nc -lp 23 & Open telnet port 23(打开23端口，即telnet)
++ shutdown -r now
++ ps --- display current process status(显示瞬间进程状态) ps -aux
++ uname --- print system infromation(显示系统信息)
++ kill --- kill process(关闭进程)
++ ifconfig --- check the net work status(查看网络情况,可以查看ip)
++ chmod ---
 
 ## 常用指令
 ls 显示文件或目录
