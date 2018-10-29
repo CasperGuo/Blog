@@ -4,11 +4,11 @@
 
 1. frp"官网"
 
-[https://github.com/fatedier/frp](https://github.com/fatedier/frp)
+> [https://github.com/fatedier/frp](https://github.com/fatedier/frp)
 
-[https://github.com/fatedier/frp/releases](https://github.com/fatedier/frp/releases)
+> [https://github.com/fatedier/frp/releases](https://github.com/fatedier/frp/releases)
 
-[https://github.com/fatedier/frp/blob/master/README\_zh.md](https://github.com/fatedier/frp/blob/master/README_zh.md)
+> [https://github.com/fatedier/frp/blob/master/README\_zh.md](https://github.com/fatedier/frp/blob/master/README_zh.md)
 
 2. putty或者其他ssh工具
 
@@ -18,9 +18,9 @@
 
 find是最常见和最强大的查找命令，你可以用它找到任何你想找的文件。find的使用实例：  
 
-$ find . -name &#39;frps.ini&#39; $ find . -name &#39; comfig.xml&#39;  
+$ find . -name 'frps.ini' $ find . -name 'comfig.xml'
 
-搜索当前目录（含子目录，以下同）中，所有&quot;文件名&quot;文件，支持通配符  
+搜索当前目录（含子目录，以下同）中，所有"文件名"文件，支持通配符  
 
 5. vps（vultra.com）
 
@@ -40,11 +40,11 @@ sudo ufw allow 22/tcp 允许所有的外部IP访问本机的22/tcp (ssh)端口
 
 查看当前启动的端口 netstat -luntp
 
-打开端口命令 nc -lp 23 &amp;(打开[23端口](https://www.baidu.com/s?wd=23%E7%AB%AF%E5%8F%A3&amp;tn=SE_PcZhidaonwhc_ngpagmjz&amp;rsv_dl=gh_pc_zhidao)，即telnet)
+打开端口命令 nc -lp 23 & (打开[23端口，即telnet)
 
-nc -lp 7777 &amp; nc -lp 7500 &amp;
+nc -lp 7777 & nc -lp 7500 &
 
-netstat -an | grep 23 (查看是否打开[23端口](https://www.baidu.com/s?wd=23%E7%AB%AF%E5%8F%A3&amp;tn=SE_PcZhidaonwhc_ngpagmjz&amp;rsv_dl=gh_pc_zhidao))
+netstat -an | grep 23 (查看是否打开[23端口])
 
 **开始**
 
@@ -84,13 +84,13 @@ sudo chmod u+x /etc/frp/frps
 
 运行后，可以使用网页访问http://45.77.215.31:xxxx（你配置的端口号），访问测试。
 
-使用&quot;nohup&quot;， 即 &quot;nohup ./frps -c ./frps.ini &amp;&quot;，忽略hangup信号，防止shell关闭时程序停掉。
+使用"nohup"， 即 "nohup ./frps -c ./frps.ini &"，忽略hangup信号，防止shell关闭时程序停掉。
 
-nohup ./frps -c ./frps.ini &amp;
+nohup ./frps -c ./frps.ini &
 
-/etc/frp/frps -c ./frps.ini &amp;
+/etc/frp/frps -c ./frps.ini &
 
-_privilege\_allow\_ports__ 可以配置允许使用的某个指定端口或者是一个范围内的所有端口，以 , 分隔，指定的范围以 - 分隔。_
+_privilege_allow_ports__ 可以配置允许使用的某个指定端口或者是一个范围内的所有端口，以 , 分隔，指定的范围以 - 分隔。_
 
 当使用不允许的端口注册时，就会注册失败。出现类似以下错误：
 
@@ -102,7 +102,7 @@ ssh domain\[user@host](mailto:user@host)
 
 客户端安装
 
-nohup ./frpc -c ./frpc.ini &amp;
+nohup ./frpc -c ./frpc.ini &
 
 SVN服务启动
 
@@ -112,7 +112,9 @@ SVN服务启动
 
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport \&lt;newport\&gt; -j ACCEPT iptables -I INPUT -m state --state NEW -m udp -p udp --dport \&lt;newport\&gt; -j ACCEPT /etc/init.d/iptables save /etc/init.d/iptables restart
 
-iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 1688 -j ACCEPT iptables -I INPUT -m state --state NEW -m udp -p udp --dport 1688 -j ACCEPT
+iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 1688 -j ACCEPT
+
+iptables -I INPUT -m state --state NEW -m udp -p udp --dport 1688 -j ACCEPT
 
 sudo nano /etc/systemd/system/frpc.service
 
@@ -158,8 +160,4 @@ sudo systemctl start frps.service#启动
 
 sudo systemctl status frps.service#查看运行状态
 
-
-
-ssh root@192.168.1.16 &quot;./wake.sh&quot;
-
-ssh -lroot www.allons-y.cn -p7722 &quot;./wake.sh&quot;
+ssh -lroot www -pxxxx "./wake.sh"
