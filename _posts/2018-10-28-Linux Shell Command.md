@@ -42,7 +42,7 @@ ls 显示文件或目录
 **mv** 移动或重命名  
 **rm** 删除文件  
 + -r 递归删除，可删除子目录及文件
-+ -f 强制删除  
++ -f 强制删除    
 **find** 在文件系统中搜索某文件  
 > 使用实例：find . -name 'frps.ini' $ find . -name ' comfig.xml'  
 
