@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ubuntu-18.04 设置开机启动脚本"
+title: "ubuntu-18.04, autostart script setting"
 date:   2018-10-28 22:43:42 +0800 
 categories: Linux
 tags: 
