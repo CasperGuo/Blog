@@ -45,7 +45,7 @@ ls 显示文件或目录
 + -f 强制删除    
 
 **find** 在文件系统中搜索某文件  
-> 使用实例：find . -name 'frps.ini' $ find . -name ' comfig.xml'  
+> e.g.(实例:) find . -name 'frps.ini' $ find . -name ' comfig.xml'  
 
 **wc** 统计文本中行数、字数、字符数  
 **grep** 在文本文件中查找某个字符串  
