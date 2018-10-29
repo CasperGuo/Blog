@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux Shell Command"
-date:   2018-10-28 22:35:42 +0800
+date: 2018-10-29 09:08:52
 categories: Linux
 tags: 
  - Linux
