@@ -12,7 +12,7 @@ tags:
 > sudo -- super user do  
 > su   -- switch user (default to root)  
 > nano -- Nano's ANOther editor  
----
+
 ## My Basic Shell Command
 + mkdir --
 + find -- find . -name 'frps.ini' $ find . -name ' comfig.xml' 
@@ -24,8 +24,6 @@ tags:
 + kill -- kill process(关闭进程)
 + ifconfig -- check the net work status(查看网络情况,可以查看ip)
 + chmod --
-
----
 
 ## Frequently Used Commands (常用指令)
 ls 显示文件或目录  
