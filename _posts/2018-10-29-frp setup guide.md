@@ -2,10 +2,10 @@
 layout: post
 title: "frp Set up -- Simon"
 date:   2018-10-29 10:57:36
-categories: Linux, VPN
+categories: Linux FRP
 tags: 
  - Linux
- - VPN
+ - FRP
 ---
 
 **准备工作**
