@@ -9,30 +9,32 @@ tags:
 ---
 
 > Links [https://ss64.com/bash/](https://ss64.com/bash/)  
-> sudo --- super user do  
-> su   --- switch user (default to root)  
-> nano --- Nano's ANOther editor  
+> sudo -- super user do  
+> su   -- switch user (default to root)  
+> nano -- Nano's ANOther editor  
 ---
 ## My Basic Shell Command
-+ mkdir ---
-+ find --- find . -name 'frps.ini' $ find . -name ' comfig.xml' 
-+ rm --- 
-+ nc --- Open port(打开端口命令) nc -lp 23 & Open telnet port 23(打开23端口，即telnet)
++ mkdir --
++ find -- find . -name 'frps.ini' $ find . -name ' comfig.xml' 
++ rm -- 
++ nc -- Open port(打开端口命令) nc -lp 23 & Open telnet port 23(打开23端口，即telnet)
 + shutdown -r now
-+ ps --- display current process status(显示瞬间进程状态) ps -aux
-+ uname --- print system infromation(显示系统信息)
-+ kill --- kill process(关闭进程)
-+ ifconfig --- check the net work status(查看网络情况,可以查看ip)
-+ chmod ---
++ ps -- display current process status(显示瞬间进程状态) ps -aux
++ uname -- print system infromation(显示系统信息)
++ kill -- kill process(关闭进程)
++ ifconfig -- check the net work status(查看网络情况,可以查看ip)
++ chmod --
+
 ---
+
 ## Frequently Used Commands (常用指令)
 ls 显示文件或目录  
 + -l 列出文件详细信息l(list)
 + -a 列出当前目录下所有文件及目录，包括隐藏的a(all)
 
-stat 显示指定文件的详细信息，比ls更详细  
-mkdir 创建目录  
-- -p 创建目录，若无父目录，则创建p(parent)  
+**stat** 显示指定文件的详细信息，比ls更详细  
+**mkdir** 创建目录
++ -p 创建目录，若无父目录，则创建p(parent)  
 
 cd 切换目录  
 touch 创建空文件  
@@ -75,14 +77,14 @@ netstat 显示网络状态信息
 gzip： 
 bzip2：  
 tar: 打包压缩  
-- -c 归档文件
-- -x 压缩文件
-- -z gzip压缩文件
-- -j bzip2压缩文件
-- -v 显示压缩或解压缩过程 v(view)
-- -f 使用档名
++ -c 归档文件
++ -x 压缩文件
++ -z gzip压缩文件
++ -j bzip2压缩文件
++ -v 显示压缩或解压缩过程 v(view)
++ -f 使用档名
 
-> 例：
+*e.g.(例:)*  
 1. tar -cvf /home/abc.tar /home/abc 只打包，不压缩
 2. tar -zcvf /home/abc.tar.gz /home/abc 打包，并用gzip压缩
 3. tar -jcvf /home/abc.tar.bz2 /home/abc 打包，并用bzip2压缩
@@ -110,8 +112,8 @@ sudo chmod u+x g+w o+r filename
 sudo chmod 765 filename  
 
 ## 防火墙ufw
- a. sudo ufw status 检查防火墙的状态  
+ + sudo ufw status 检查防火墙的状态  
  如果你是root，则去掉sudo，ufw status inactive(默认为不活动)  
- a. 开启/禁用 sudo ufw allow|deny [service]  
+ + 开启/禁用 sudo ufw allow|deny [service]  
  sudo ufw allow smtp　允许所有的外部IP访问本机的25/tcp (smtp)端口  
  sudo ufw allow 22/tcp 允许所有的外部IP访问本机的22/tcp (ssh)端口  
