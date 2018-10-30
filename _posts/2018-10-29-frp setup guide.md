@@ -12,7 +12,7 @@ tags:
 
 1. frp"官网"
 
-> [https://github.com/fatedier/frp](https://github.com/fatedier/frp)
+> [https://github.com/fatedier/frp](https://github.com/fatedier/)
 
 > [https://github.com/fatedier/frp/releases](https://github.com/fatedier/frp/releases)
 
