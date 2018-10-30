@@ -19,4 +19,10 @@ tags:
 4. Start Jekyll  
    bundle exec jekyll serve  
    
+5. install visual studio code
+6. install 'Markdown All in One' extenstion
+   open preview by button at rigt top bar.
+7. install 'Insert Date String' extenstion
+   use ctrl+ shift+ I to insert current date.
+
 
