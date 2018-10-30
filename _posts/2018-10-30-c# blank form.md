@@ -11,6 +11,8 @@ tags:
 
 ##Visual Studio Design View - form is blank
 
+https://stackoverflow.com/questions/32114770/visual-studio-design-view-form-is-blank
+
 Your project file has become invalid.
 
 A valid project entry for a form looks like this:
