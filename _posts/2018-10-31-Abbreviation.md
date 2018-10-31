@@ -10,12 +10,14 @@ tags:
 
 **abbr.** abbreviation 缩写
 # Computer Science
-No. |Vocabulary      |abbreviation     |  Chinese
+
+No. |Vocabulary      |abbreviation     |  Chinese  
 ----|--------------- | --------------- |  -----------------------
 0001|Management      |MGT/MGMT         | 管理
 
 # Enterprise
-No. |Vocabulary      |abbreviation     |  Chinese
+
+No. |Vocabulary      |abbreviation     |  Chinese  
 ----|--------------- | --------------- | -----------------------
 001|PDCA|Plan、Do、Check、Action       |策划、实施、检查、处置
 002|PPAP|Production PartApproval Process |生产件批准程序
@@ -60,7 +62,7 @@ No. |Vocabulary      |abbreviation     |  Chinese
 041|Smart|SpecificMeasurable Achievable Result Oriented Timed|精明原则，（具体的描述、可以测量的、可以通过努力实现的、有结果导向性的、有时间性的）
 
 # Other
-No. |Vocabulary      |abbreviation     |  Chinese
+No. |Vocabulary      |abbreviation     |  Chinese  
 ----|--------------- | --------------- | -----------------------
 001|PO |Purchase Order  |采购订单
 002|PR |Purchase Request|采购申请
