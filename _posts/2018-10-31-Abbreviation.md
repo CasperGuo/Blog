@@ -62,6 +62,7 @@ No. |Vocabulary      |abbreviation     |  Chinese
 041|Smart|SpecificMeasurable Achievable Result Oriented Timed|精明原则，（具体的描述、可以测量的、可以通过努力实现的、有结果导向性的、有时间性的）
 
 # Other  
+
 No. |Vocabulary      |abbreviation     |  Chinese  
 ----|--------------- | --------------- | -----------------------  
 001|PO |Purchase Order  |采购订单
