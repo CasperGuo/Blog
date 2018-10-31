@@ -63,7 +63,7 @@ No. |Vocabulary      |abbreviation     |  Chinese
 
 # Other
 No. |Vocabulary      |abbreviation     |  Chinese  
-----|--------------- | --------------- | -----------------------
+----|--------------- | --------------- | -----------------------  
 001|PO |Purchase Order  |采购订单
 002|PR |Purchase Request|采购申请
 003|SO |Sales Order     |销售订单
