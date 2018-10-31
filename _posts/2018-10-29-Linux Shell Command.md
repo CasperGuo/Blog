@@ -40,7 +40,7 @@ ls 显示文件或目录
 **cat** 查看文件内容   
 **cp** 拷贝  
 **mv** 移动或重命名  
-**rm** 删除文件  
+**rm** 删除文件   
 + -r 递归删除，可删除子目录及文件
 + -f 强制删除    
 
@@ -64,7 +64,8 @@ ls 显示文件或目录
 **shutdown**  
  + -r 关机重启
  + -h 关机不重启
- + now 立刻关机
+ + now 立刻关机  
+  
 **halt** 关机  
 **reboot** 重启  
 **ifconfig** 查看网络情况,可以查看ip  
@@ -91,8 +92,8 @@ tar: 打包压缩
 
 当然，如果想解压缩，就直接替换上面的命令 tar -cvf / tar -zcvf / tar -jcvf 中的“c” 换成“x” 就可以了。  
 
-## 文件权限管理
-三种基本权限  
+## 文件权限管理   
+**三种基本权限**  
 R 读 数值表示为4   
 W 写 数值表示为2   
 X 可执行 数值表示为1   
@@ -111,7 +112,7 @@ sudo chmod u+x g+w o+r filename
 上面的例子可以用数值表示  
 sudo chmod 765 filename  
 
-## 防火墙ufw
+## 防火墙ufw  
  + sudo ufw status 检查防火墙的状态  
  如果你是root，则去掉sudo，ufw status inactive(默认为不活动)  
  + 开启/禁用 sudo ufw allow|deny [service]  
