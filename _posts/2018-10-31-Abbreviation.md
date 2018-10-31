@@ -10,10 +10,11 @@ tags:
 
 **abbr.** abbreviation 缩写
 # Computer Science
-
+[https://www.abbreviations.com](https://www.abbreviations.com)  
 No. |Vocabulary      |abbreviation     |  Chinese  
 ----|--------------- | --------------- |  -----------------------
 0001|Management      |MGT/MGMT         | 管理
+0002|Station         |STA/Sta.         | 
 
 # Enterprise
 
