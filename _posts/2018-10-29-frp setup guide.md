@@ -86,7 +86,7 @@ $PATH
 sudo chmod u+x /etc/frp   
 sudo chmod u+x /etc/frp/frps  
 ```
-### 3.运行客户端  
+### 3.运行服务  
 带参数运行frps，
 ```bash
 ./frps -c ./frps.ini
