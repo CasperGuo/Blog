@@ -34,7 +34,7 @@ No. |Vocabulary      |abbreviation     |  Chinese
 011|QP|Quality Procedure |质量程序文件/Quality Planning质量策划/Quality Plan 质量计划
 012|Cmk|机器能力指数
 013|CPK|过程能力指数
-014|CAD|Computer-AidedDesign  |计算机辅助能力设计
+014|CAD|Computer-Aided Design  |计算机辅助能力设计
 015|OEE|Overall Equipment Effectiveness  |设备总效率
 016|QFD|Quality Function Deployment |质量功能展开
 017|FIFO|First in, First out |先进先出
