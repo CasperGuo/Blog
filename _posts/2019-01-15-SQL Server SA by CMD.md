@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Labview's Limit
+title: SQL Server SA by CMD
 date: 2019-01-15 09:45:45
-categories: Labview
+categories: SQL Server
 tags:
- - Labview
+ - SQL Server
+ - Script
 ---
-# SQL Server SA by CMD
-
 # 命令行方式修改sql server sa 的密码 #
 
 在打开具有管理员权限的cmd窗口
