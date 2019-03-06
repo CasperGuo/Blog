@@ -22,3 +22,7 @@ T 详细时间格式 HH:mm:ss
 
 DateTime dt = DateTime.Now; //获得当前系统时间  
 Console.WriteLine(string.Format("{0:yyyyMMddHHmmssffff}", dt));    //200912281029182047
+Console.WriteLine(string.Format("{0:f}", dt));    //2009年12月28日 AM 10:29  
+Console.WriteLine(string.Format("{0:F}", dt));    //2009年12月28日 AM  10:29:18  
+
+http://www.cnblogs.com/Peter-Zhang/articles/1778143.html
