@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Date Time Format
+title: C# Date Time Format
 date: 2019-03-06 16:23:54
 categories: SQL Server
 tags:
- - SQL Server
- - Script
+ - C#
+ - DateTime
 ---
 # 常用的日期时间格式 #
 格式 说明      输出格式  
